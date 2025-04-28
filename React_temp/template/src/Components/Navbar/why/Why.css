@@ -1,0 +1,24 @@
+#why
+{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 30px;
+    text-align: center;
+    gap: 40px;
+    width: 100%;
+  
+}
+#why>div>p{
+    font-size: 20px;
+    margin-top: 0px;
+    padding: 20px 30px;
+}
+#why>div>img{
+    height: 140px;
+    border-radius: 100%;
+    padding: 25px;
+    border: 6px solid rgb(11, 11, 98);
+}
+#why>div>h3{
+    font-size: 25px;
+}

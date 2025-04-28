@@ -1,0 +1,50 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(1, 1, 37);
+}
+#re
+{
+  /* background-color: aqua; */
+  width: 100%;
+  text-align: center;
+}
+#re>img
+{
+  text-align: center;
+  align-items: center;
+  margin-left: 500px;
+  height: 220px;
+  width: 320px;
+  animation: rotate 5s infinite linear;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate3d(0, 0, 1, 0deg); /* Start at 0 degrees */
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, 360deg); /* Complete one full rotation */
+  }
+}
+#buu
+{
+  margin: 0px;
+  /* margin-bottom: 20px; */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-left: 500px;
+  gap: 30px;
+  padding: 75px 15px;
+  margin-top:0px;
+  font-size: larger;
+}
+#ss
+{
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 500px;
+}

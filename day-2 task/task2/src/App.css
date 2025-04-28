@@ -1,0 +1,70 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#nav
+{
+  background-color: black;
+  color: white;
+  padding: 4px;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  width: 100%;
+}
+#front,#back
+{
+  margin-top: 10px;
+  text-align: center;
+  /* background-color: antiquewhite; */
+  /* border: 1px solid black; */
+}
+#fs,#bs
+{
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  margin: 0px;
+  border: 2px solid rgb(0, 0, 0);
+ padding: 10px 20px;
+ justify-content: space-between;
+ text-align: center;
+ gap: 25px;
+}
+#h,#c,#b,#j,#Mean,#Mern,#py,#ja
+{
+  border: 1px solid black;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background-color:rgba(105, 98, 98, 0.071) ;
+  cursor: pointer;
+  
+}
+#h>img,#c>img,#j>img{
+  border-radius: 10px;
+  height: 250px;
+  width: 300px;
+}
+#Mean>img,#Mern>img,#py>img,#ja>img{
+  border-radius: 10px;
+  height: 250px;
+  width: 300px;
+}
+#b>img{
+  border-radius: 100px;
+  height: 250px;
+  width: 300px;
+}
+#h:hover,#b:hover,#j:hover,#c:hover
+{
+background-color: white;
+color: black;
+}
+#py:hover,#ja:hover,#Mern:hover,#Mean:hover
+{
+background-color: white;
+color: black;
+}

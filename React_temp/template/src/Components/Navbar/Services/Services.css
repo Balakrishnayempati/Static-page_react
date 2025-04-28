@@ -1,0 +1,60 @@
+#our
+{
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+#ser
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px;
+    gap: 50PX;
+    align-items: center;
+    text-align: center;
+}
+#ser>div>a{
+    text-decoration: none;
+}
+#ser>div>img{
+    width: 100px;
+    height: 80px;
+    padding: 10px;
+}
+#ser>div>h3{
+    margin-top: 12px;
+    font-size: 30px;
+}
+#ser>div>p{
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+#ser>div>a{
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+#ser>div>a:hover
+{
+    color: aqua;
+}
+#but{
+    text-align: center;
+    margin-top: 88px;
+}
+#but>button
+{
+    padding: 10px 10px;
+    height: 40px;
+    width:140px;
+    background-color: #00bbf0;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    font-size: 18px;
+}
+#but>button:hover{
+    background-color: #023d4dcc;
+    transition: all 1s;
+
+}
