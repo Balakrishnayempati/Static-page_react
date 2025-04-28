@@ -7,7 +7,7 @@ function Day(abc) {
     <div>
       <h2>{abc.dy.day}</h2>
       <h1>{abc.dy.time}</h1>
-      <h1>{abc.dy.degree}+-</h1>
+      <h1>{abc.dy.degree}</h1>
     </div>
   )
 }
